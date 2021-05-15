@@ -49,4 +49,40 @@ header > .top_bar_wrap > .nav_wrap{
 
 header > .top_bar_wrap > .nav_wrap > ul > li{
     margin-right: 20px;
+    font-size: 14px;
+}
+
+header > .top_bar_wrap > .nav_wrap > ul:hover > li{
+    color:#ddd;
+}
+header > .top_bar_wrap > .nav_wrap > ul > li:hover{
+    color:black;
+}
+  
+header > .top_bar_wrap > .icon_wrap{
+    height:60px;
+    line-height:60px;
+}
+  
+header > .top_bar_wrap > .icon_wrap > ul > li{
+    margin:0 10px;
+    font-size:18px;
+    transition:.5s;
+}
+
+header > .top_bar_wrap > .icon_wrap > ul:hover > li{
+    color:#ddd;
+}
+header > .top_bar_wrap > .icon_wrap > ul > li:hover{
+    color:black;
+}
+
+header > .top_bar_wrap > .search_wrap{
+    width:60px;
+    height:60px;
+    background:black;
+    color:white;
+    text-align:center;
+    line-height:60px;
+    font-size:18px;
 }
