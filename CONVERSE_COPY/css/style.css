@@ -29,10 +29,9 @@ header{
 }
 
 header > .top_bar_wrap{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-left: 20px;
-    background-color: #ddd;
 }
 
 header > .top_bar_wrap > .logo{
