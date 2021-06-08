@@ -1,0 +1,43 @@
+/* 노멀라이징 */
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+/* 라이브러리 */
+.cell{
+    float:left;
+}
+.cell_r{
+    float:right;
+}
+.row::after{
+    clear:both;
+    content: "";
+    display: block;
+}
+/* 스타일 */
+.section_wrap{
+    width: 100%;
+    height: 100vh;
+    background: #999;
+}
+
+.section_wrap > .animation_wrap > .animation_content > .animation_content_list{
+    width: 4900px;
+}
+
+.section_wrap > .animation_wrap > .animation_content > .animation_content_list > .img_box{
+    width: 700px;
+}
+
+.section_wrap > .animation_wrap > .animation_content > .animation_content_list > .img_box > img{
+    width: 100%;
+    display: block;
+}
